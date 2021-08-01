@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 130vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-areas: 
+        "banner_titulo banner_titulo banner_figura banner_figura"
+        "banner_titulo banner_titulo banner_figura banner_figura" 
+        "banner_titulo banner_titulo banner_figura banner_figura"
+        "segundo_card segundo_card terceiro_card terceiro_card"
+        "segundo_card segundo_card quarto_card quarto_card"
+        "segundo_card segundo_card quinto_card quinto_card"
+        "rodape rodape rodape rodape";
+    /* gap: 0.1rem; */
+}
+
+.banner__titulo {
+    grid-area: banner_titulo;
+    /* border: white solid 1px; */
+    background-color: black;
+    display: flex;
+}
+
+.banner__titulo > div > h1 {
+    color: white;
+}
+
+.banner__figura {
+    grid-area: banner_figura;
+    /* border: black solid 1px; */
+    background-color: black;
+    display: flex;
+}
+
+.banner__figura > div > img {
+    width: 600px;
+    height: 327px;
+    display: flex;
+}
+
+.segundoCard {
+    grid-area: segundo_card;
+    /* border: black solid 1px; */
+    padding: 20px;
+    
+}
+
+.segundoCard > img {
+    width: 600px;
+    height: 350px;
+    margin: 10px;
+}
+
+.terceiroCard {
+    grid-area: terceiro_card;
+    /* border: black solid 1px; */
+    display: flex;
+}
+
+.terceiroCard > div > img {
+    width: 300px;
+    height: 150px;
+    margin: 10px 0 10px 10px;
+}
+
+.quartoCard {
+    grid-area: quarto_card;
+    /* border: black solid 1px; */
+    display: flex;
+}
+
+.quartoCard > div > img {
+    width: 300px;
+    height: 150px;
+    margin: 10px 0 10px 10px;
+}
+
+.quintoCard {
+    grid-area: quinto_card;
+    /* border: black solid 1px; */
+    display: flex;
+}
+
+.quintoCard > div > img {
+    width: 300px;
+    height: 150px;
+    margin: 10px 0 10px 10px;
+}
+
+
+footer {
+    border: solid black 1px;
+    grid-area: rodape;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Falta fazer o media queria para a tela pequena para deixar responsivo */
+
+
