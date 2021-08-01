@@ -6,7 +6,7 @@
 
 .container {
     display: grid;
-    height: 130vh;
+    height: 140vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
     grid-template-areas: 
@@ -29,6 +29,9 @@
 
 .banner__titulo > div > h1 {
     color: white;
+    margin-left: 50%;
+    margin-top: 5%;
+    font-weight: bold;
 }
 
 .banner__figura {
@@ -39,58 +42,68 @@
 }
 
 .banner__figura > div > img {
-    width: 600px;
-    height: 327px;
+    width: 100%;
+    height: 100%;
     display: flex;
 }
 
 .segundoCard {
     grid-area: segundo_card;
     /* border: black solid 1px; */
-    padding: 20px;
+    margin: 30px;
+    margin-left: 80px;
     
 }
 
+.segundoCard > p {
+    margin-bottom: 20px;
+}
+
 .segundoCard > img {
-    width: 600px;
+    width: 100%;
     height: 350px;
-    margin: 10px;
+    margin-top: 80px;
 }
 
 .terceiroCard {
     grid-area: terceiro_card;
     /* border: black solid 1px; */
     display: flex;
+    margin: 30px;
 }
 
 .terceiroCard > div > img {
-    width: 300px;
-    height: 150px;
-    margin: 10px 0 10px 10px;
+    width: 90%;
+    height: 100%;
+    margin-right: 17rem;
+
 }
 
 .quartoCard {
     grid-area: quarto_card;
     /* border: black solid 1px; */
     display: flex;
+    margin: 20px;
 }
 
 .quartoCard > div > img {
-    width: 300px;
-    height: 150px;
-    margin: 10px 0 10px 10px;
+    width: 90%;
+    height: 100%;
+    margin-right: 22rem;
+
 }
 
 .quintoCard {
     grid-area: quinto_card;
     /* border: black solid 1px; */
     display: flex;
+    margin: 20px;
 }
 
 .quintoCard > div > img {
-    width: 300px;
-    height: 150px;
-    margin: 10px 0 10px 10px;
+    width: 90%;
+    height: 100%;
+    margin-right: 12rem;
 }
 
 
