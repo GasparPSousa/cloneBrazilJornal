@@ -51,7 +51,7 @@
     grid-area: segundo_card;
     /* border: black solid 1px; */
     margin: 30px;
-    margin-left: 80px;
+    margin-left: 150px;
     
 }
 
@@ -59,10 +59,15 @@
     margin-bottom: 20px;
 }
 
+.segundoCard > h2 {
+    margin-bottom: 200px;
+    font-size: 40px;
+}
+
 .segundoCard > img {
     width: 100%;
-    height: 350px;
-    margin-top: 80px;
+    height: 480px;
+   
 }
 
 .terceiroCard {
@@ -125,7 +130,7 @@ footer {
         height: 100vh;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 0.8fr 0.8fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr 0.8fr 0.8fr 0.8fr 0.5fr 0.5fr;
         grid-template-areas: 
             "banner_titulo"
             "banner_figura"
@@ -184,9 +189,14 @@ footer {
         margin-top: 0;
     }
 
+    .segundoCard > h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
     .segundoCard > img {
         width: 100%;
-        margin-top: 5%;
+        margin-top: 0%;
         margin-right: 5%;
         height: 70%;
     }
@@ -200,7 +210,7 @@ footer {
     }
 
     .terceiroCard > div > h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .terceiroCard > div > img {
@@ -217,13 +227,18 @@ footer {
         
     }
 
+    /* .quartoCard > div {
+        width: 50%;
+        border: solid black 1px;
+    } */
+
     .quartoCard > div > h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .quartoCard > div > img {
-        width: 45%;
-        margin-left: 15%;
+        width: 40%;
+        margin-left: 17%;
        
     }
 
@@ -237,7 +252,7 @@ footer {
     }
 
     .quintoCard > div > h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .quintoCard > div > img {
